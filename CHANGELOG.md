@@ -6,6 +6,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [Unreleased](first-commit-link)
+## v0.1.0
 ### Added
 - First version
