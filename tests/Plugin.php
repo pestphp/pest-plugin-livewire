@@ -13,3 +13,7 @@ it('can test a livewire component')
     ->livewire(TestComponent::class)
     ->set('title', 'foo')
     ->assertSet('title', 'foo');
+
+it('can test a livewire component with parameters')
+    ->livewire(TestComponent::class, ['title' => 'bar'])
+    ->assertSet('title', 'bar');
