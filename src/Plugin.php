@@ -2,12 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Pest\PluginName;
+use Livewire\Testing\TestableLivewire;
+use Pest\Livewire\InteractsWithLivewire;
 
-/**
- * @internal
- */
-final class Plugin
-{
-    // ..
+Pest\Plugin::uses(InteractsWithLivewire::class);
+
+if (!function_exists('livewire')) {
+    /** @param array<string, mixed> $params */
+    function livewire(string $name, $params = []): TestableLivewire
+    {
+        return test()->livewire($name, $params);
+    }
 }

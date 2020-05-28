@@ -1,7 +1,9 @@
 <?php
 
-use Pest\PluginName\Plugin;
+it('has global function', function () {
+    assertTrue(function_exists('livewire'));
+});
 
-it('has plugin', function () {
-    assertTrue(class_exists(Plugin::class));
+it('has plugin trait method', function () {
+    assertTrue(method_exists($this, 'livewire'));
 });
