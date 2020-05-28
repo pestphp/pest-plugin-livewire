@@ -2,12 +2,6 @@
 
 declare(strict_types=1);
 
-namespace Pest\PluginName;
+use Pest\Livewire\InteractsWithLivewire;
 
-/**
- * @internal
- */
-final class Plugin
-{
-    // ..
-}
+Pest\Plugin::uses(InteractsWithLivewire::class);
