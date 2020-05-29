@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pest\\Livewire\\": "src/"
+            "Pest\\PluginLivewire\\": "src/"
         },
         "files": ["src/Plugin.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Pest\\Livewire\\Tests\\": "tests/"
+            "Pest\\PluginLivewire\\Tests\\": "tests/"
         }
     },
     "require-dev": {

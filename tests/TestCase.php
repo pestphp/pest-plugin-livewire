@@ -1,6 +1,6 @@
 <?php
 
-namespace Pest\Livewire\Tests;
+namespace Pest\PluginLivewire\Tests;
 
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
