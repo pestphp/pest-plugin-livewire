@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-use Pest\Livewire\InteractsWithLivewire;
+use Pest\PluginLivewire\InteractsWithLivewire;
 
 Pest\Plugin::uses(InteractsWithLivewire::class);

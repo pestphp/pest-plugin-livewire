@@ -1,7 +1,7 @@
 <?php
 
-use Pest\Livewire\Tests\TestCase;
-use Pest\Livewire\Tests\TestComponent;
+use Pest\PluginLivewire\Tests\TestCase;
+use Pest\PluginLivewire\Tests\TestComponent;
 
 uses(TestCase::class);
 
