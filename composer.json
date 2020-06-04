@@ -14,7 +14,7 @@
     "require": {
         "php": "^7.3",
         "livewire/livewire": "^1.1",
-        "pestphp/pest": "^0.1.5"
+        "pestphp/pest": "^0.2"
     },
     "autoload": {
         "psr-4": {
