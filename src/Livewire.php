@@ -6,7 +6,10 @@ namespace Pest\Livewire;
 
 use Livewire\Testing\TestableLivewire;
 
-function livewire(string $name, array $params = []): TestableLivewire
+/**
+ * @return TestableLivewire
+ */
+function livewire(string $name, array $params = [])
 {
     return test()->livewire(...func_get_args());
 }
