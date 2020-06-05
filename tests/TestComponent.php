@@ -1,6 +1,6 @@
 <?php
 
-namespace Pest\PluginLivewire\Tests;
+namespace Tests;
 
 use Livewire\Component;
 

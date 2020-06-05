@@ -1,7 +1,8 @@
 <?php
 
-use Pest\PluginLivewire\Tests\TestCase;
-use Pest\PluginLivewire\Tests\TestComponent;
+use function Pest\Livewire\livewire;
+use Tests\TestCase;
+use Tests\TestComponent;
 
 uses(TestCase::class);
 
@@ -17,3 +18,5 @@ it('can test a livewire component')
 it('can test a livewire component with parameters')
     ->livewire(TestComponent::class, ['title' => 'bar'])
     ->assertSet('title', 'bar');
+
+livewire(TestComponent::class)->assertSet('title', null);

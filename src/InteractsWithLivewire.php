@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pest\PluginLivewire;
+namespace Pest\Livewire;
 
 use Livewire\Livewire;
 use Livewire\Testing\TestableLivewire;

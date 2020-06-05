@@ -14,17 +14,17 @@
     "require": {
         "php": "^7.3",
         "livewire/livewire": "^1.1",
-        "pestphp/pest": "^0.1.5"
+        "pestphp/pest": "^0.2"
     },
     "autoload": {
         "psr-4": {
-            "Pest\\PluginLivewire\\": "src/"
+            "Pest\\Livewire\\": "src/"
         },
-        "files": ["src/Plugin.php"]
+        "files": ["src/Livewire.php", "src/Plugin.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Pest\\PluginLivewire\\Tests\\": "tests/"
+            "Tests\\": "tests/"
         }
     },
     "require-dev": {
