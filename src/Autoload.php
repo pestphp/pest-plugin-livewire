@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Pest\Livewire;
 
 use Livewire\Testing\TestableLivewire;
+use Pest\Plugin;
+
+Plugin::uses(InteractsWithLivewire::class);
 
 /**
  * @return TestableLivewire

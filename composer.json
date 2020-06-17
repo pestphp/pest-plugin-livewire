@@ -20,7 +20,9 @@
         "psr-4": {
             "Pest\\Livewire\\": "src/"
         },
-        "files": ["src/Livewire.php", "src/Plugin.php"]
+        "files": [
+          "src/Autoload.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
