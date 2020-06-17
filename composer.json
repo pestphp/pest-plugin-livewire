@@ -21,7 +21,7 @@
             "Pest\\Livewire\\": "src/"
         },
         "files": [
-          "src/Autoload.php"
+            "src/Autoload.php"
         ]
     },
     "autoload-dev": {
