@@ -38,4 +38,4 @@ jobs:
       if: "matrix.php >= 8"
 
     - name: Unit Tests
-      run: vendor/bin/pest --colors=always
+      run: ./vendor/bin/pest --colors=always
