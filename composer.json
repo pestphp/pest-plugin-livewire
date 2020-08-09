@@ -13,7 +13,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3",
+        "php": "^7.3 || ^8.0",
         "livewire/livewire": "^1.2",
         "pestphp/pest": "^0.3"
     },
