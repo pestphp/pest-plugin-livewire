@@ -7,7 +7,7 @@ use Tests\TestComponent;
 uses(TestCase::class);
 
 it('adds the trait globally', function () {
-    assertTrue(method_exists($this, 'livewire'));
+    $this->assertTrue(method_exists($this, 'livewire'));
 });
 
 it('can test a livewire component')
