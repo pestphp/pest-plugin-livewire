@@ -31,7 +31,7 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "^5.2",
+        "orchestra/testbench": "^6.4",
         "pestphp/pest-dev-tools": "dev-master"
     },
     "minimum-stability": "dev",
