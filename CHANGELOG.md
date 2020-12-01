@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.3.2 (2020-12-01)](https://github.com/pestphp/pest-plugin-livewire/compare/v0.3.1...v0.3.2)
+### Added
+- Support for PHP 8 ([#8](https://github.com/pestphp/pest-plugin-livewire/pull/8), [#9](https://github.com/pestphp/pest-plugin-livewire/pull/9))
+
 ## [v0.3.1 (2020-08-27)](https://github.com/pestphp/pest-plugin-livewire/compare/v0.3.0...v0.3.1)
 ### Added
 - Support to Livewire v2.0 ([#7](https://github.com/pestphp/pest-plugin-livewire/pull/7))
