@@ -14,4 +14,13 @@ trait InteractsWithLivewire
     {
         return Livewire::test($name, $params);
     }
+
+    /**
+     * @param array<string, mixed> $params
+     * @param array<string, mixed> $query
+     */
+    public function livewireWithQuery(string $name, array $params = [], array $query = []): TestableLivewire
+    {
+        return Livewire::withQueryParams($query)->test($name, $params);
+    }
 }
