@@ -16,3 +16,11 @@ function livewire(string $name, array $params = [])
 {
     return test()->livewire(...func_get_args());
 }
+
+/**
+ * @return TestableLivewire
+ */
+function livewireWithQuery(string $name, array $params = [], array $query = [])
+{
+    return test()->livewireWithQuery(...func_get_args());
+}
