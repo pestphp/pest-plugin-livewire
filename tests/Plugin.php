@@ -20,3 +20,27 @@ it('can test a livewire component with parameters')
     ->assertSet('title', 'bar');
 
 livewire(TestComponent::class)->assertSet('title', null);
+
+it('can create a new expectation as a livewire component')
+    ->expect(TestComponent::class)->livewire()
+    ->lastRenderedDom
+    ->toBeString()
+    ->set('title', 'foo')
+    ->assertSet('title', 'foo')
+    ->get('status')
+    ->toBeTrue()
+    ->assertSee('foo')
+    ->set('status', false)
+    ->assertSet('status', false);
+
+it('can create a new expectation as livewire a component with parameters')
+    ->expect(TestComponent::class)->livewire(['title' => 'bar'])
+    ->toBeInstanceOf('Livewire\Testing\TestableLivewire')
+    ->lastRenderedDom
+    ->toBeString()
+    ->assertSet('title', 'bar')
+    ->set('title', 'foo')
+    ->assertSet('title', 'foo')
+    ->toBeInstanceOf('Livewire\Testing\TestableLivewire')
+    ->get('title')
+    ->toBeString();
