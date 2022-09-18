@@ -1,7 +1,6 @@
 <?php
 
 use function Pest\Livewire\livewire;
-
 use Tests\TestCase;
 use Tests\TestComponent;
 

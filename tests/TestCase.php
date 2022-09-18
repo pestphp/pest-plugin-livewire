@@ -17,7 +17,7 @@ class TestCase extends BaseTestCase
     protected function getEnvironmentSetUp($app)
     {
         $app['config']->set('view.paths', [
-            __DIR__ . '/views',
+            __DIR__.'/views',
         ]);
 
         $app['config']->set('app.key', 'base64:Hupx3yAySikrM2/edkZQNQHslgDWYfiBfCuSThJ5SK8=');

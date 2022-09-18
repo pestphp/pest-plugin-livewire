@@ -9,7 +9,7 @@ use Livewire\Testing\TestableLivewire;
 
 trait InteractsWithLivewire
 {
-    /** @param array<string, mixed> $params */
+    /** @param  array<string, mixed>  $params */
     public function livewire(string $name, array $params = []): TestableLivewire
     {
         return Livewire::test($name, $params);
