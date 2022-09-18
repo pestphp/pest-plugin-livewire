@@ -14,5 +14,6 @@ Plugin::uses(InteractsWithLivewire::class);
  */
 function livewire(string $name, array $params = [])
 {
+    // @phpstan-ignore-next-line
     return test()->livewire(...func_get_args());
 }
