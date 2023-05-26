@@ -12,7 +12,7 @@ Plugin::uses(InteractsWithLivewire::class);
 /**
  * @return TestableLivewire
  */
-function livewire(string $name, array $params = [])
+function livewire(string $name, array $params = [], array $queryParams = [])
 {
     // @phpstan-ignore-next-line
     return test()->livewire(...func_get_args());

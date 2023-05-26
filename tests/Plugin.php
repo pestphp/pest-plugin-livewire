@@ -19,4 +19,8 @@ it('can test a livewire component with parameters')
     ->livewire(TestComponent::class, ['title' => 'bar'])
     ->assertSet('title', 'bar');
 
+it('can test a livewire component with query parameters')
+    ->livewire(TestComponent::class, [], ['page' => 1])
+    ->assertSet('page', 1);
+
 livewire(TestComponent::class)->assertSet('title', null);

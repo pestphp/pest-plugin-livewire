@@ -10,8 +10,8 @@ use Livewire\Testing\TestableLivewire;
 trait InteractsWithLivewire
 {
     /** @param  array<string, mixed>  $params */
-    public function livewire(string $name, array $params = []): TestableLivewire
+    public function livewire(string $name, array $params = [], array $queryParams = []): TestableLivewire
     {
-        return Livewire::test($name, $params);
+        return Livewire::withQueryParams($queryParams)->test($name, $params);
     }
 }
