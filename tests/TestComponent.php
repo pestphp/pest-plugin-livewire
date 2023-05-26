@@ -8,6 +8,10 @@ class TestComponent extends Component
 {
     public $title;
 
+    public $search;
+
+    protected $queryString = ['search'];
+
     public function mount(string $title = ''): void
     {
         $this->title = $title;
