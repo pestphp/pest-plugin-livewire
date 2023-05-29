@@ -24,3 +24,5 @@ it('can test a livewire component with query parameters')
     ->assertSet('search', 'text');
 
 livewire(TestComponent::class)->assertSet('title', null);
+
+livewire(TestComponent::class)->assertSet('search', null);
