@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Pest\Livewire;
 
-use Livewire\Testing\TestableLivewire;
+use Livewire\Features\SupportTesting\Testable;
 use Pest\Plugin;
 
 Plugin::uses(InteractsWithLivewire::class);
 
 /**
- * @return TestableLivewire
+ * @return Testable
  */
 function livewire(string $name, array $params = [])
 {
