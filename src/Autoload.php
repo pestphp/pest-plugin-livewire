@@ -10,10 +10,9 @@ use Pest\Plugin;
 
 Plugin::uses(InteractsWithLivewire::class);
 
-
 if (class_exists(Testable::class)) {
     /**
-     * @return Testable
+     * @return Testable // @phpstan-ignore-next-line
      */
     function livewire(string $name, array $params = [])
     {

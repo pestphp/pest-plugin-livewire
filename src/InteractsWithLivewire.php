@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Pest\Livewire;
 
 use Livewire\Features\SupportTesting\Testable;
-use Livewire\Testing\TestableLivewire;
 use Livewire\Livewire;
+use Livewire\Testing\TestableLivewire;
 
 if (class_exists(Testable::class)) {
     trait InteractsWithLivewire
