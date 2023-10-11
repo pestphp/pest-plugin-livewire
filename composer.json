@@ -43,6 +43,13 @@
             "pestphp/pest-plugin": true
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pest\\Livewire\\PestServiceProvider"
+            ]
+        }
+    },
     "scripts": {
         "lint": "pint",
         "test:lint": "pint --test",
