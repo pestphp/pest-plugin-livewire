@@ -12,7 +12,7 @@ Plugin::uses(InteractsWithLivewire::class);
 
 if (class_exists(Testable::class)) {
     /**
-     * @return Testable // @phpstan-ignore-next-line
+     * @return Testable
      */
     function livewire(string $name, array $params = [])
     {
@@ -21,7 +21,7 @@ if (class_exists(Testable::class)) {
     }
 } else {
     /**
-     * @return TestableLivewire
+     * @return TestableLivewire // @phpstan-ignore-next-line
      */
     function livewire(string $name, array $params = [])
     {

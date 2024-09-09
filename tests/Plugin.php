@@ -1,8 +1,9 @@
 <?php
 
-use function Pest\Livewire\livewire;
 use Tests\TestCase;
 use Tests\TestComponent;
+
+use function Pest\Livewire\livewire;
 
 uses(TestCase::class);
 
