@@ -10,6 +10,7 @@ use Pest\Plugin;
 Plugin::uses(InteractsWithLivewire::class);
 
 /**
+ * @param  array<array-key, mixed>  $params
  * @return Testable
  */
 function livewire(string $name, array $params = [])

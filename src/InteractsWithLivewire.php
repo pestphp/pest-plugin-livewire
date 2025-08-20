@@ -7,7 +7,7 @@ namespace Pest\Livewire;
 use Livewire\Features\SupportTesting\Testable;
 use Livewire\Livewire;
 
-trait InteractsWithLivewire
+trait InteractsWithLivewire // @phpstan-ignore-line
 {
     /** @param  array<string, mixed>  $params */
     public function livewire(string $name, array $params = []): Testable
