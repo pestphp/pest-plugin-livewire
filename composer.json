@@ -14,7 +14,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "livewire/livewire": "^3.6.4",
+        "livewire/livewire": "^3.6.4|^4.0.0-beta.1",
         "pestphp/pest": "^4.0.0"
     },
     "autoload": {
