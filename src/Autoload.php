@@ -11,7 +11,7 @@ Plugin::uses(InteractsWithLivewire::class);
 
 /**
  * @param  array<array-key, mixed>  $params
- * @return Testable
+ * @return Testable<\Livewire\Component>
  */
 function livewire(string $name, array $params = [])
 {
