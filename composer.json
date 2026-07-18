@@ -14,7 +14,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.4",
-        "livewire/livewire": "^3.7.4|^4.0.1",
+        "livewire/livewire": "^4.3.3",
         "pestphp/pest": "^5.0.0"
     },
     "autoload": {
@@ -31,7 +31,7 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "^10.9.0",
+        "orchestra/testbench": "^11",
         "pestphp/pest-dev-tools": "^5.0.0"
     },
     "minimum-stability": "dev",

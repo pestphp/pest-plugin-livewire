@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Pest\Livewire;
 
+use Livewire\Component;
 use Livewire\Features\SupportTesting\Testable;
 use Pest\Plugin;
 
@@ -11,7 +12,7 @@ Plugin::uses(InteractsWithLivewire::class);
 
 /**
  * @param  array<array-key, mixed>  $params
- * @return Testable<\Livewire\Component>
+ * @return Testable<Component>
  */
 function livewire(string $name, array $params = [])
 {
